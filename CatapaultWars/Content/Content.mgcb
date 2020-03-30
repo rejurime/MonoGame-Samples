@@ -1,0 +1,368 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:DesktopGL
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+
+#---------------------------------- Content ---------------------------------#
+
+#begin ../../SamplesContentBuilderContent/Fonts/HUDFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:../../SamplesContentBuilderContent/Fonts/HUDFont.spritefont;Fonts/HUDFont.spritefont
+
+#begin ../../SamplesContentBuilderContent/Fonts/MenuFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:../../SamplesContentBuilderContent/Fonts/MenuFont.spritefont;Fonts/MenuFont.spritefont
+
+#begin ../../SamplesContentBuilderContent/Textures/Ammo/rock_ammo.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../SamplesContentBuilderContent/Textures/Ammo/rock_ammo.png;Textures/Ammo/rock_ammo.png
+
+#begin ../../SamplesContentBuilderContent/Textures/Backgrounds/blank.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../SamplesContentBuilderContent/Textures/Backgrounds/blank.png;Textures/Backgrounds/blank.png
+
+#begin ../../SamplesContentBuilderContent/Textures/Backgrounds/cloud1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../SamplesContentBuilderContent/Textures/Backgrounds/cloud1.png;Textures/Backgrounds/cloud1.png
+
+#begin ../../SamplesContentBuilderContent/Textures/Backgrounds/cloud2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../SamplesContentBuilderContent/Textures/Backgrounds/cloud2.png;Textures/Backgrounds/cloud2.png
+
+#begin ../../SamplesContentBuilderContent/Textures/Backgrounds/defeat.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../SamplesContentBuilderContent/Textures/Backgrounds/defeat.png;Textures/Backgrounds/defeat.png
+
+#begin ../../SamplesContentBuilderContent/Textures/Backgrounds/gameplay_screen.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../SamplesContentBuilderContent/Textures/Backgrounds/gameplay_screen.png;Textures/Backgrounds/gameplay_screen.png
+
+#begin ../../SamplesContentBuilderContent/Textures/Backgrounds/instructions.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../SamplesContentBuilderContent/Textures/Backgrounds/instructions.png;Textures/Backgrounds/instructions.png
+
+#begin ../../SamplesContentBuilderContent/Textures/Backgrounds/mountain.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../SamplesContentBuilderContent/Textures/Backgrounds/mountain.png;Textures/Backgrounds/mountain.png
+
+#begin ../../SamplesContentBuilderContent/Textures/Backgrounds/sky.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../SamplesContentBuilderContent/Textures/Backgrounds/sky.png;Textures/Backgrounds/sky.png
+
+#begin ../../SamplesContentBuilderContent/Textures/Backgrounds/title_screen.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../SamplesContentBuilderContent/Textures/Backgrounds/title_screen.png;Textures/Backgrounds/title_screen.png
+
+#begin ../../SamplesContentBuilderContent/Textures/Backgrounds/victory.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../SamplesContentBuilderContent/Textures/Backgrounds/victory.png;Textures/Backgrounds/victory.png
+
+#begin ../../SamplesContentBuilderContent/Textures/Catapults/AnimationsDef.xml
+/copy:../../SamplesContentBuilderContent/Textures/Catapults/AnimationsDef.xml;Textures/Catapults/AnimationsDef.xml
+
+#begin ../../SamplesContentBuilderContent/Textures/Catapults/Blue/blueDestroyed/blueCatapult_destroyed.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../SamplesContentBuilderContent/Textures/Catapults/Blue/blueDestroyed/blueCatapult_destroyed.png;Textures/Catapults/Blue/blueDestroyed/blueCatapult_destroyed.png
+
+#begin ../../SamplesContentBuilderContent/Textures/Catapults/Blue/blueFire/blueCatapult_fire.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../SamplesContentBuilderContent/Textures/Catapults/Blue/blueFire/blueCatapult_fire.png;Textures/Catapults/Blue/blueFire/blueCatapult_fire.png
+
+#begin ../../SamplesContentBuilderContent/Textures/Catapults/Blue/blueIdle/blueIdle.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../SamplesContentBuilderContent/Textures/Catapults/Blue/blueIdle/blueIdle.png;Textures/Catapults/Blue/blueIdle/blueIdle.png
+
+#begin ../../SamplesContentBuilderContent/Textures/Catapults/Blue/bluePullback/blueCatapult_Pullback.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../SamplesContentBuilderContent/Textures/Catapults/Blue/bluePullback/blueCatapult_Pullback.png;Textures/Catapults/Blue/bluePullback/blueCatapult_Pullback.png
+
+#begin ../../SamplesContentBuilderContent/Textures/Catapults/Fire_Miss/fire_miss.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../SamplesContentBuilderContent/Textures/Catapults/Fire_Miss/fire_miss.png;Textures/Catapults/Fire_Miss/fire_miss.png
+
+#begin ../../SamplesContentBuilderContent/Textures/Catapults/Hit_Smoke/smoke.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../SamplesContentBuilderContent/Textures/Catapults/Hit_Smoke/smoke.png;Textures/Catapults/Hit_Smoke/smoke.png
+
+#begin ../../SamplesContentBuilderContent/Textures/Catapults/Red/redDestroyed/redCatapult_destroyed.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../SamplesContentBuilderContent/Textures/Catapults/Red/redDestroyed/redCatapult_destroyed.png;Textures/Catapults/Red/redDestroyed/redCatapult_destroyed.png
+
+#begin ../../SamplesContentBuilderContent/Textures/Catapults/Red/redFire/redCatapult_fire.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../SamplesContentBuilderContent/Textures/Catapults/Red/redFire/redCatapult_fire.png;Textures/Catapults/Red/redFire/redCatapult_fire.png
+
+#begin ../../SamplesContentBuilderContent/Textures/Catapults/Red/redIdle/redIdle.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../SamplesContentBuilderContent/Textures/Catapults/Red/redIdle/redIdle.png;Textures/Catapults/Red/redIdle/redIdle.png
+
+#begin ../../SamplesContentBuilderContent/Textures/Catapults/Red/redPullback/redCatapult_Pullback.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../SamplesContentBuilderContent/Textures/Catapults/Red/redPullback/redCatapult_Pullback.png;Textures/Catapults/Red/redPullback/redCatapult_Pullback.png
+
+#begin ../../SamplesContentBuilderContent/Textures/HUD/ammoType.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../SamplesContentBuilderContent/Textures/HUD/ammoType.png;Textures/HUD/ammoType.png
+
+#begin ../../SamplesContentBuilderContent/Textures/HUD/Arrow.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../SamplesContentBuilderContent/Textures/HUD/Arrow.png;Textures/HUD/Arrow.png
+
+#begin ../../SamplesContentBuilderContent/Textures/HUD/hudBackground.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../SamplesContentBuilderContent/Textures/HUD/hudBackground.png;Textures/HUD/hudBackground.png
+
+#begin ../../SamplesContentBuilderContent/Textures/HUD/windArrow.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../SamplesContentBuilderContent/Textures/HUD/windArrow.png;Textures/HUD/windArrow.png
+
+#begin Sounds/BoulderHit.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/BoulderHit.wav
+
+#begin Sounds/CatapultExplosion.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/CatapultExplosion.wav
+
+#begin Sounds/CatapultFire.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/CatapultFire.wav
+
+#begin Sounds/Lose.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/Lose.wav
+
+#begin Sounds/RopeStretch.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/RopeStretch.wav
+
+#begin Sounds/Win.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/Win.wav
+

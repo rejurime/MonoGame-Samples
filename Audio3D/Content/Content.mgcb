@@ -1,0 +1,75 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:DesktopGL
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+
+#---------------------------------- Content ---------------------------------#
+
+#begin ../../SamplesContentBuilderContent/Textures/CatTexture.tga
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../SamplesContentBuilderContent/Textures/CatTexture.tga;CatTexture.tga
+
+#begin ../../SamplesContentBuilderContent/Textures/checker.bmp
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../SamplesContentBuilderContent/Textures/checker.bmp;checker.bmp
+
+#begin ../../SamplesContentBuilderContent/Textures/DogTexture.tga
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../SamplesContentBuilderContent/Textures/DogTexture.tga;DogTexture.tga
+
+#begin ../../SamplesContentBuilderContent/Wavs/CatSound0.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:../../SamplesContentBuilderContent/Wavs/CatSound0.wav;CatSound0.wav
+
+#begin ../../SamplesContentBuilderContent/Wavs/CatSound1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:../../SamplesContentBuilderContent/Wavs/CatSound1.wav;CatSound1.wav
+
+#begin ../../SamplesContentBuilderContent/Wavs/CatSound2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:../../SamplesContentBuilderContent/Wavs/CatSound2.wav;CatSound2.wav
+
+#begin ../../SamplesContentBuilderContent/Wavs/DogSound.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:../../SamplesContentBuilderContent/Wavs/DogSound.wav;DogSound.wav
+
