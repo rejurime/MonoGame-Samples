@@ -49,9 +49,6 @@
 /processorParam:TextureFormat=Color
 /build:cat_depth.jpg
 
-#begin cat_normalmap.xnb
-/copy:cat_normalmap.xnb
-
 #begin desaturate.fx
 /importer:EffectImporter
 /processor:EffectProcessor
@@ -64,9 +61,6 @@
 /processorParam:DebugMode=Auto
 /build:disappear.fx
 
-#begin glacier.xnb
-/copy:glacier.xnb
-
 #begin normalmap.fx
 /importer:EffectImporter
 /processor:EffectProcessor
@@ -78,7 +72,4 @@
 /processor:EffectProcessor
 /processorParam:DebugMode=Auto
 /build:refraction.fx
-
-#begin waterfall.xnb
-/copy:waterfall.xnb
 

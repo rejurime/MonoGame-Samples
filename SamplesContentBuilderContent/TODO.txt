@@ -1,1 +1,0 @@
-Borrar los archivos que son de los 3 modelos fbx que no compilan si no estan aca ..\

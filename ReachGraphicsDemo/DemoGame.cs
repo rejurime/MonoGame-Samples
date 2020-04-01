@@ -131,8 +131,8 @@ namespace ReachGraphicsDemo
         {
             SpriteBatch = new SpriteBatch(GraphicsDevice);
 
-            Font = Content.Load<SpriteFont>("font");
-            BigFont = Content.Load<SpriteFont>("BigFont");
+            Font = Content.Load<SpriteFont>("GameScreenFont14px");
+            BigFont = Content.Load<SpriteFont>("GameScreenFont36px");
 
             BlankTexture = new Texture2D(GraphicsDevice, 1, 1);
             BlankTexture.SetData(new Color[] { Color.White });

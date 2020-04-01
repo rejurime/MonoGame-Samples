@@ -32,7 +32,7 @@ namespace Particle3DSample
         private string settingsName;
 
         // Settings class controls the appearance and animation of this particle system.
-        private ParticleSettings.ParticleSettings settings;
+        private ParticleSettings settings;
 
         // For loading the effect and particle texture.
         private ContentManager content;
@@ -164,7 +164,7 @@ namespace Particle3DSample
         protected override void LoadContent()
         {
             //return;
-            settings = content.Load<ParticleSettings.ParticleSettings>(settingsName);
+            settings = content.Load<ParticleSettings>(settingsName);
 
             // Allocate the particle array, and fill in the corner fields (which never change).
             particles = new ParticleVertex[settings.MaxParticles * 4];

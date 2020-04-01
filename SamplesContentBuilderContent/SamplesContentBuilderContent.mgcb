@@ -294,8 +294,8 @@
 /processorParam:TextureFormat=Compressed
 /build:Models/Ground.x
 
-#begin Models/spaceship.fbx
-/importer:FbxImporter
+#begin Models/spaceship.obj
+/importer:OpenAssetImporter
 /processor:ModelProcessor
 /processorParam:ColorKeyColor=0,0,0,0
 /processorParam:ColorKeyEnabled=True
@@ -311,10 +311,10 @@
 /processorParam:Scale=1
 /processorParam:SwapWindingOrder=False
 /processorParam:TextureFormat=Compressed
-/build:Models/spaceship.fbx
+/build:Models/spaceship.obj
 
-#begin Models/tank.fbx
-/importer:FbxImporter
+#begin Models/tank.obj
+/importer:OpenAssetImporter
 /processor:ModelProcessor
 /processorParam:ColorKeyColor=0,0,0,0
 /processorParam:ColorKeyEnabled=True
@@ -330,10 +330,10 @@
 /processorParam:Scale=1
 /processorParam:SwapWindingOrder=False
 /processorParam:TextureFormat=Compressed
-/build:Models/tank.fbx
+/build:Models/tank.obj
 
-#begin Models/terrain.fbx
-/importer:FbxImporter
+#begin Models/terrain.obj
+/importer:OpenAssetImporter
 /processor:ModelProcessor
 /processorParam:ColorKeyColor=0,0,0,0
 /processorParam:ColorKeyEnabled=True
@@ -349,7 +349,7 @@
 /processorParam:Scale=1
 /processorParam:SwapWindingOrder=False
 /processorParam:TextureFormat=Compressed
-/build:Models/terrain.fbx
+/build:Models/terrain.obj
 
 #begin Music/InGameSong_Loop.mp3
 /importer:Mp3Importer

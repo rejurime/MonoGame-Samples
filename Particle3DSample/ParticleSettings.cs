@@ -11,14 +11,14 @@
 
 #region Using Statements
 
+using System;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
-using System;
 
 #endregion Using Statements
 
-namespace Particle3DSample.ParticleSettings
+namespace Particle3DSample
 {
     /// <summary>
     /// Settings class describes all the tweakable options used

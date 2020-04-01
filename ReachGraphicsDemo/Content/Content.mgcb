@@ -13,12 +13,19 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin ../../SamplesContentBuilderContent/Fonts/Font.spritefont
+#begin ../../SamplesContentBuilderContent/Fonts/GameScreenFont14px.spritefont
 /importer:FontDescriptionImporter
 /processor:FontDescriptionProcessor
 /processorParam:PremultiplyAlpha=True
 /processorParam:TextureFormat=Compressed
-/build:../../SamplesContentBuilderContent/Fonts/Font.spritefont;Font.spritefont
+/build:../../SamplesContentBuilderContent/Fonts/GameScreenFont14px.spritefont;GameScreenFont14px.spritefont
+
+#begin ../../SamplesContentBuilderContent/Fonts/GameScreenFont36px.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:../../SamplesContentBuilderContent/Fonts/GameScreenFont36px.spritefont;GameScreenFont36px.spritefont
 
 #begin ../../SamplesContentBuilderContent/Models/grid.x
 /importer:XImporter
@@ -39,7 +46,7 @@
 /processorParam:TextureFormat=Compressed
 /build:../../SamplesContentBuilderContent/Models/grid.x;grid.x
 
-#begin ../../SamplesContentBuilderContent/Models/tank.fbx
+#begin ../../SamplesContentBuilderContent/Models/tank.obj
 /importer:FbxImporter
 /processor:ModelProcessor
 /processorParam:ColorKeyColor=0,0,0,0
@@ -56,5 +63,17 @@
 /processorParam:Scale=1
 /processorParam:SwapWindingOrder=False
 /processorParam:TextureFormat=Compressed
-/build:../../SamplesContentBuilderContent/Models/tank.fbx;tank.fbx
+/build:../../SamplesContentBuilderContent/Models/tank.obj;tank.obj
+
+#begin ../../SamplesContentBuilderContent/Textures/cat.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../SamplesContentBuilderContent/Textures/cat.png;cat.png
 

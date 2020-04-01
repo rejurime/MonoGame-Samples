@@ -38,7 +38,19 @@
 /processorParam:TextureFormat=Compressed
 /build:../../SamplesContentBuilderContent/Fonts/HUDFont.spritefont;HUDFont.spritefont
 
-#begin ../../SamplesContentBuilderContent/Models/tank.fbx
+#begin ../../SamplesContentBuilderContent/Models/engine_diff_tex.tga
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../SamplesContentBuilderContent/Models/engine_diff_tex.tga;engine_diff_tex.tga
+
+#begin ../../SamplesContentBuilderContent/Models/tank.obj
 /importer:FbxImporter
 /processor:ModelProcessor
 /processorParam:ColorKeyColor=0,0,0,0
@@ -55,7 +67,19 @@
 /processorParam:Scale=1
 /processorParam:SwapWindingOrder=False
 /processorParam:TextureFormat=Compressed
-/build:../../SamplesContentBuilderContent/Models/tank.fbx;tank.fbx
+/build:../../SamplesContentBuilderContent/Models/tank.obj;tank.obj
+
+#begin ../../SamplesContentBuilderContent/Models/turret_alt_diff_tex.tga
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../SamplesContentBuilderContent/Models/turret_alt_diff_tex.tga;turret_alt_diff_tex.tga
 
 #begin ../../SamplesContentBuilderContent/Textures/sunset.jpg
 /importer:TextureImporter

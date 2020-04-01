@@ -13,7 +13,7 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin ../../SamplesContentBuilderContent/Models/terrain.fbx
+#begin ../../SamplesContentBuilderContent/Models/terrain.obj
 /importer:FbxImporter
 /processor:ModelProcessor
 /processorParam:ColorKeyColor=0,0,0,0
@@ -30,7 +30,7 @@
 /processorParam:Scale=1
 /processorParam:SwapWindingOrder=False
 /processorParam:TextureFormat=Compressed
-/build:../../SamplesContentBuilderContent/Models/terrain.fbx;terrain.fbx
+/build:../../SamplesContentBuilderContent/Models/terrain.obj;terrain.obj
 
 #begin ../../SamplesContentBuilderContent/Textures/flare1.png
 /importer:TextureImporter

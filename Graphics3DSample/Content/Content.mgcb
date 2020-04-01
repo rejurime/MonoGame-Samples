@@ -13,19 +13,7 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin ../../SamplesContentBuilderContent/Models/enemy.tga
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:../../SamplesContentBuilderContent/Models/enemy.tga;Models/enemy.tga
-
-#begin ../../SamplesContentBuilderContent/Models/spaceship.fbx
+#begin ../../SamplesContentBuilderContent/Models/spaceship.obj
 /importer:FbxImporter
 /processor:ModelProcessor
 /processorParam:ColorKeyColor=0,0,0,0
@@ -42,7 +30,7 @@
 /processorParam:Scale=1
 /processorParam:SwapWindingOrder=False
 /processorParam:TextureFormat=Compressed
-/build:../../SamplesContentBuilderContent/Models/spaceship.fbx;Models/spaceship.fbx
+/build:../../SamplesContentBuilderContent/Models/spaceship.obj;Models/spaceship.obj
 
 #begin ../../SamplesContentBuilderContent/Textures/Buttons/animation_60x60.png
 /importer:TextureImporter
